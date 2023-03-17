@@ -10,9 +10,9 @@ root -l
 
 Then run the following commands in the `C++` interpreter and follow the prompts:
 
-```Root
-root [0] .L psfSiGDER.C
-root [1] reading()
+```root
+> .L psfSiGDER.C
+> reading()
 ```
 
 
