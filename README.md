@@ -17,7 +17,7 @@ Then exceute the following commands in the `C++` interpreter and follow the prom
 
 The figure below is an example of the resulting Lorentzian fit to the GDER in <sup>28</sup>Si(&gamma;,*xn*) and the calculated photon strength functions (PSF) utilizing the parametrizations obtained from the fit.
 
-![PSF 28Si](Si28_PSF.pdf?raw=true "Different formulations of the PSF used to describe the GDER in <sup>28</sup>Si")
+![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in <sup>28</sup>Si")
 
 
 
