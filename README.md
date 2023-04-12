@@ -25,8 +25,10 @@ $$
 where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_{G}$ correspond to the resonance centroid (MeV), width (MeV), and cross section (mb), respectively, and are obtained from the fitting procedure.  This strength function contains the constant $\frac{1}{3(\pi \hbar c)^{2}} = 8.68 \times 10^{-8}~\text{mb}^{-1}\text{MeV}^{-2}$, and is singularly dependent on the $\gamma$-ray energy $E_{\gamma}$.  The other models shown on the plot are the Generalized Lorentzian (GLO), Enhanced Generalized Lorentzian (EGLO), and the Kadmenski-Markushev-Furman (KMF) model.  These models are widely adopted and explained in the literature, for example, refer to the articles bundled with this project for explicit definitions of the GLO [[4]](#4), [[5]](#5), EGLO [[4]](#4), and KMF [[5]](#5) models that have been utilized in the statistical modeling of the tungsten [[4]](#4) and lanthanum [[5]](#5) isotopes to describe decay-scheme observables following thermal neutron capture.
 
 <p align="center">
-   ![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
+   <img src="Si28_PSF.png"> 
 </p>
+
+//![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
 
 ## Selecting the source data
 
