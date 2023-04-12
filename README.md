@@ -28,7 +28,9 @@ where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_
    <img src="Si28_PSF.png"> 
 </p>
 
-[//]: # ![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
+<!--
+![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
+-->
 
 ## Selecting the source data
 
