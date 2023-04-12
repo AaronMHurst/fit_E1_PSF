@@ -28,27 +28,14 @@ where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_
 
 ## Selecting the source data
 
-In the figure above, the photonuclear data of Caldwell *et al.* [[2]](#2) are used to obtain the fit.  The appropriate filename string is declared in the `reading` function of the `psfSiGDER.C` script:
+In the figure above, the photonuclear data of Goryachev *et al.* [[3]](#3) are used to obtain the fit.  The appropriate filename string is declared in the `reading` function of the `psfSiGDER.C` script:
 
-```C++
-const std::string iFile = "si28_gxn_caldwell.dat";
-```
-
-The results of the fitted parametrizations are also defined in the `MyParameters()` constructor so that these parameters are used by the PSF models when this constuctor gets called to create an object of the class:
-
-```C++
-//Deduced fitted parametrizations to Caldwell data
-MyParameters::MyParameters(){ EG1 = 20.47; GammaG1 = 3.73; SigmaG1 = 9.43;  
-  EG2 = 27.56; GammaG2 = 7.98; SigmaG2 = 2.95; EK0 = 1.0; }
-```
-
-To use the photonuclear data of Goryachev *et al*. [[3]](#3) instead, change the string declaration to:
 
 ```C++
 const std::string iFile = "si28_gxn_goryachev.dat";
 ```
 
-and then comment out the Caldwell-deduced parameters and uncomment the Goryachev-deduced parametrization of the BA (SLO) model:
+The results of the fitted parametrizations are also defined in the `MyParameters()` constructor so that these parameters are then used by the PSF models when this constuctor gets called to create an object of the class:
 
 ```C++
 //Deduced fitted parametrizations to Goryachev data
@@ -56,6 +43,20 @@ MyParameters::MyParameters(){ EG1 = 20.24; GammaG1 = 4.03; SigmaG1 = 13.45;
   EG2 = 27.68; GammaG2 = 6.46; SigmaG2 = 6.92; EK0 = 1.0; }
 ```
 
+To use the photonuclear data of Caldwell *et al*. [[2]](#2) instead, change the string filename declaration to:
+
+```C++
+const std::string iFile = "si28_gxn_caldwell.dat";
+```
+
+and then comment out the Goryachev-deduced parameters and uncomment the Caldwell-deduced parametrization of the BA (SLO) model:
+
+
+```C++
+//Deduced fitted parametrizations to Caldwell data
+MyParameters::MyParameters(){ EG1 = 20.47; GammaG1 = 3.73; SigmaG1 = 9.43;  
+  EG2 = 27.56; GammaG2 = 7.98; SigmaG2 = 2.95; EK0 = 1.0; }
+```
 
 ## References
 <a id="1">[1]</a>
