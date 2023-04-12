@@ -34,7 +34,7 @@ https://root.cern.ch/
 
 <a id="2">[2]</a>
 J.T. Caldwell *et al*.,
-*$(\gamma,n)$ cross sections of $^{16}$O and $^{28}$Si*
+*(&gamma;,n) cross sections of <sup>16</sup>O and <sup>28</sup>Si*
 Phys. Lett. **6**, 213 (1963).
 
 
