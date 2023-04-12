@@ -30,7 +30,7 @@ where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_
 
 In the figure above, the data of Caldwell *et al.* [[2]](#2) are used to obtain the fit.  The appropriate filename string is declared in the `reading` function of the `psfSiGDER.C` script:
 
-```c++
+```C++
 const std::string iFile = "si28_gxn_caldwell.dat";
 ```
 
