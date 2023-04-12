@@ -53,12 +53,12 @@ private:
 //  EG2 = 26.50; GammaG2 = 8.70; SigmaG2 = 3.70; EK0 = 1.0; }
 
 //Deduced fitted parametrizations to Caldwell data
-MyParameters::MyParameters(){ EG1 = 20.47; GammaG1 = 3.73; SigmaG1 = 9.43;  
-  EG2 = 27.56; GammaG2 = 7.98; SigmaG2 = 2.95; EK0 = 1.0; }
+//MyParameters::MyParameters(){ EG1 = 20.47; GammaG1 = 3.73; SigmaG1 = 9.43;  
+//  EG2 = 27.56; GammaG2 = 7.98; SigmaG2 = 2.95; EK0 = 1.0; }
 
 //Deduced fitted parametrizations to Goryachev data
-//MyParameters::MyParameters(){ EG1 = 20.24; GammaG1 = 4.03; SigmaG1 = 13.45;  
-//  EG2 = 27.68; GammaG2 = 6.46; SigmaG2 = 6.92; EK0 = 1.0; }
+MyParameters::MyParameters(){ EG1 = 20.24; GammaG1 = 4.03; SigmaG1 = 13.45;  
+  EG2 = 27.68; GammaG2 = 6.46; SigmaG2 = 6.92; EK0 = 1.0; }
 
 MyParameters::~MyParameters(){}
 
@@ -207,8 +207,8 @@ void reading()
   Double_t cs[100]={0};
   Double_t dcs[100]={0};
 
-  const std::string iFile = "si28_gxn_caldwell.dat";
-  //const std::string iFile = "si28_gxn_goryachev.dat";
+  //const std::string iFile = "si28_gxn_caldwell.dat";
+  const std::string iFile = "si28_gxn_goryachev.dat";
 
   ifstream inputfile;
   inputfile.open(iFile.c_str(), ios::in);
