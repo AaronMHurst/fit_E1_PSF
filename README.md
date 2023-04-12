@@ -22,9 +22,7 @@ $$
 	f_{E1}(E_{\gamma}) = \frac{1}{3(\pi \hbar c)^{2}} \sum\limits_{i=1}^{N=2} \frac{\sigma_{G_{i}} E_{\gamma} \Gamma_{G_{i}}^{2}}{(E^{2}_{\gamma}-E_{G_{i}}^{2})^{2} + E_{\gamma}^{2}\Gamma_{i}^{2}},
 $$
 
-where $\sigma_{G}$, $\Gamma_{G}$, and $E_{G}$ correspond to
-
-and the other models shown on the plot are the Generalized Lorentzian (GLO), Enhanced Generalized Lorentzian (EGLO), and the Kadmensky-M-F (KMF) model.  These models are also explicitly defined in the attached article describing the statistical modeling of the tungsten isotopes in thermal neutron capture.
+where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_{G}$ correspond to the resonance centroid (MeV), width (MeV), and cross section (mb), respectively, and are obtained from the fitting procedure.  This strength function contains the constant $\frac{1}{3(\pi \hbar c)^{2}} = 8.68 \times 10^{-8}~\text{mb}^{-1}\text{MeV}^{-2}$, and is singularly dependent on the $\gamma$-ray energy $E_{\gamma}$.  The other models shown on the plot are the Generalized Lorentzian (GLO), Enhanced Generalized Lorentzian (EGLO), and the Kadmensky-M-F (KMF) model.  These models are widely adopted and explained in the literature, for example, refer to the articles bundled with this project for a explicit definitions of the GLO [[2]](#2), [[3]](#3), EGLO [[3]](#3), and KMF [[#3]](3) models that have been utilized in the statistical modeling of the tungsten [[2]](#2) and lanthanum [[3]](#3) isotopes in thermal neutron capture.
 
 ![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
 
