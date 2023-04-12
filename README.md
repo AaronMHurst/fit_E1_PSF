@@ -72,12 +72,13 @@ https://root.cern.ch/
 <a id="2">[2]</a>
 J.T. Caldwell *et al*.,
 *(&gamma;,n) cross sections of <sup>16</sup>O and <sup>28</sup>Si*,
-Phys. Lett. **6**, 213 (1963).
+Phys. Lett. **6**, 213 (1963);
+http://dx.doi.org/10.1016/0031-9163(63)90548-1
 
 <a id="3">[3]</a>
 B.I. Goryachev *et al*.,
 *Structure of (&gamma;,n) Cross Sections in <sup>28</sup>Si, <sup>32</sup>S, and <sup>40</sup>Ca*,
-Yadern. Fix.**7**, 1168 (1968);
+Yadern. Fiz. **7**, 1168 (1968);
 Soviet J. Nucl. Phys. **7**, 698 (1968).
 
 <a id="4">[4]</a>
