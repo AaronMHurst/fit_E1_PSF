@@ -46,10 +46,12 @@ Soviet J. Nucl. Phys. **7**, 698 (1968).
 <a id="4">[4]</a>
 A.M. Hurst *et al*.,
 *Investigation of the tungsten isotopes via thermal neutron capture*,
-Phys. Rev. C **89**, 014606 (2014).
+Phys. Rev. C **89**, 014606 (2014);
+http://dx.doi.org/10.1103/PhysRevC.89.014606
 
 <a id="5">[5]</a>
 A.M. Hurst *et al*.,
-*Radiative-capture cross sections for the <sup>139</sup>La(n,&gamma;) reaction using thermal neutrons and structural properties of <sup>140</sup>La,
-Phys. Rev. C **99**, 024310 (2019).
+*Radiative-capture cross sections for the <sup>139</sup>La(n,&gamma;) reaction using thermal neutrons and structural properties of <sup>140</sup>La*,
+Phys. Rev. C **99**, 024310 (2019);
+http://dx.doi.org/10.1103/PhysRevC.99.024310
 
