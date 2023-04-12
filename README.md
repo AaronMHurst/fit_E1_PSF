@@ -22,7 +22,7 @@ $$
 	f_{E1}(E_{\gamma}) = \frac{1}{3(\pi \hbar c)^{2}} \sum\limits_{i=1}^{N=2} \frac{\sigma_{G_{i}} E_{\gamma} \Gamma_{G_{i}}^{2}}{(E^{2}_{\gamma}-E_{G_{i}}^{2})^{2} + E_{\gamma}^{2}\Gamma_{i}^{2}},
 $$
 
-where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_{G}$ correspond to the resonance centroid (MeV), width (MeV), and cross section (mb), respectively, and are obtained from the fitting procedure.  This strength function contains the constant $\frac{1}{3(\pi \hbar c)^{2}} = 8.68 \times 10^{-8}~\text{mb}^{-1}\text{MeV}^{-2}$, and is singularly dependent on the $\gamma$-ray energy $E_{\gamma}$.  The other models shown on the plot are the Generalized Lorentzian (GLO), Enhanced Generalized Lorentzian (EGLO), and the Kadmenski-Markushev-Furman (KMF) model.  These models are widely adopted and explained in the literature, for example, refer to the articles bundled with this project for explicit definitions of the GLO [[2]](#2), [[3]](#3), EGLO [[3]](#3), and KMF [[3]](#3) models that have been utilized in the statistical modeling of the tungsten [[2]](#2) and lanthanum [[3]](#3) isotopes to describe decay-scheme observables following thermal neutron capture.
+where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_{G}$ correspond to the resonance centroid (MeV), width (MeV), and cross section (mb), respectively, and are obtained from the fitting procedure.  This strength function contains the constant $\frac{1}{3(\pi \hbar c)^{2}} = 8.68 \times 10^{-8}~\text{mb}^{-1}\text{MeV}^{-2}$, and is singularly dependent on the $\gamma$-ray energy $E_{\gamma}$.  The other models shown on the plot are the Generalized Lorentzian (GLO), Enhanced Generalized Lorentzian (EGLO), and the Kadmenski-Markushev-Furman (KMF) model.  These models are widely adopted and explained in the literature, for example, refer to the articles bundled with this project for explicit definitions of the GLO [[4]](#4), [[5]](#5), EGLO [[4]](#4), and KMF [[5]](#5) models that have been utilized in the statistical modeling of the tungsten [[4]](#4) and lanthanum [[5]](#5) isotopes to describe decay-scheme observables following thermal neutron capture.
 
 ![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
 
@@ -36,6 +36,12 @@ https://root.cern.ch/
 J.T. Caldwell *et al*.,
 *(&gamma;,n) cross sections of <sup>16</sup>O and <sup>28</sup>Si*
 Phys. Lett. **6**, 213 (1963).
+
+<a id="3">[3]</a>
+B.I. Goryachev *et al*.,
+*Structure of (&gamma;,n) Cross Sections in <sup>28</sup>Si, <sup>32</sup>S, and <sup>40</sup>Ca*
+Yadern. Fix.**7**, 1168 (1968);
+Soviet J. Nucl. Phys. **7**, 698 (1968).
 
 
 
