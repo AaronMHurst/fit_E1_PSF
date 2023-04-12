@@ -19,7 +19,7 @@ The figure below is an example of the resulting Lorentzian fit to the GDER in <s
 
 
 $$
-	f_{E1}(E_{\gamma}) = \frac{1}{3(\pi \hbar c)^{2}} \sum\limits_{i=1}^{N=2} \frac{\sigma_{G_{i}} E_{\gamma} \Gamma_{G_{i}}^{2}}{(E^{2}_{\gamma}-E_{i}^{2})^{2} + E_{\gamma}^{2}\Gamma_{i}^{2}},
+	```diff -f_{E1}```(E_{\gamma}) = \frac{1}{3(\pi \hbar c)^{2}} \sum\limits_{i=1}^{N=2} \frac{\sigma_{G_{i}} E_{\gamma} \Gamma_{G_{i}}^{2}}{(E^{2}_{\gamma}-E_{G_{i}}^{2})^{2} + E_{\gamma}^{2}\Gamma_{i}^{2}},
 $$
 
 and the other models shown on the plot are the Generalized Lorentzian (GLO), Enhanced Generalized Lorentzian (EGLO), and the Kadmensky-M-F (KMF) model.  These models are also explicitly defined in the attached article describing the statistical modeling of the tungsten isotopes in thermal neutron capture.
