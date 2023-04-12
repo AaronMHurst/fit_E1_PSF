@@ -26,6 +26,16 @@ where the resonance-shape driving parameters $E_{G}$, $\Gamma_{G}$, and $\sigma_
 
 ![PSF 28Si](Si28_PSF.png?raw=true "Different formulations of the PSF used to describe the GDER in 28Si")
 
+## Selecting the source data
+
+In the figure above, the data of Caldwell *et al.* [[2]](#2) are used to obtain the fit.  The appropriate filename string is declared in the `reading` function of the `psfSiGDER.C` script:
+
+```c++
+const std::string iFile = "si28_gxn_caldwell.dat";
+```
+
+
+
 
 ## References
 <a id="1">[1]</a>
@@ -39,7 +49,7 @@ Phys. Lett. **6**, 213 (1963).
 
 <a id="3">[3]</a>
 B.I. Goryachev *et al*.,
-*Structure of (&gamma;,n) Cross Sections in <sup>28</sup>Si, <sup>32</sup>S, and <sup>40</sup>Ca*
+*Structure of (&gamma;,n) Cross Sections in <sup>28</sup>Si, <sup>32</sup>S, and <sup>40</sup>Ca*,
 Yadern. Fix.**7**, 1168 (1968);
 Soviet J. Nucl. Phys. **7**, 698 (1968).
 
